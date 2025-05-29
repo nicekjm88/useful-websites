@@ -1,5 +1,25 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Development Setup
+
+This project uses [Ant Design](https://ant.design) for UI components and [Supabase](https://supabase.com) as the backend service. To get started locally:
+
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Create a `.env` file based on `.env.example` and provide your Supabase credentials.
+
+3. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+The app will be available at [http://localhost:3000](http://localhost:3000).
+
 ## Getting Started
 
 First, run the development server:
